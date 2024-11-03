@@ -46,5 +46,12 @@ public class Customer {
 
     public void setAddress(String address) {
         this.address = address;
+
+        new Thread(new Runnable(){
+            public void run(){}
+        }).start();
+
     }
+
+
 }
